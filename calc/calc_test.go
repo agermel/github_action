@@ -19,7 +19,7 @@ func TestMul(t *testing.T) {
 	}{
 		{"pos", 2, 3, 6},
 		{"neg", 2, 7, 14},
-		{"wrong", 2, 9, 1},
+		{"wrong", 2, 9, 18},
 	}
 
 	for _, c := range cases {
